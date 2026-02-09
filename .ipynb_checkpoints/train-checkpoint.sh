@@ -1,0 +1,1 @@
+python train.py --device 1 --yaml ultralytics/models/v8/yolov8s-fasternet-Fbifpn.yaml --data RUOD.yaml --workers 8 --batch 64 --name yolov8s-fasternet-Fbifpn-concat-C2fGS --project runs/train/RUOD --imgsz 640 --cache --epochs 100

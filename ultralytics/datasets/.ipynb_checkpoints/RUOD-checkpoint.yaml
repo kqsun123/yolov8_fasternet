@@ -1,0 +1,16 @@
+train: /home/zhangziyi/zhangziyi/RUOD/train/images  # train images (relative to 'path')  6471 images
+val: /home/zhangziyi/zhangziyi/RUOD/val/images  # val images (relative to 'path')  548 images
+test: /home/zhangziyi/zhangziyi/RUOD/test/images # test images (optional)  1610 images
+
+# Classes
+names:
+  0: holothurian
+  1: echinus
+  2: scallop
+  3: starfish
+  4: fish
+  5: corals
+  6: diver
+  7: cuttlefish
+  8: turtle
+  9: jellyfish
